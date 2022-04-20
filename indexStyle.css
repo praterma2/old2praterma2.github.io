@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    color: firebrick;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    line-height: 30px;
+    height: 400px;
+    width: 100px;
+    padding: 5px;
+    float: left;
+}
+
+main {
+    
+    height: 600px;
+    padding: 5px;
+    text-align: center;
+    
+}
