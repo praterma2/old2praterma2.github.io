@@ -2,24 +2,11 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    font-size: 16px;
-    height: 100vh;
 }
-
-.titleAni {
-    animation: color-change 15s ease infinite;
-  }
-  
-  @keyframes color-change {
-    0% { color: firebrick; }
-    50% { color: blue; }
-    100% { color: firebrick; }
-  }
 
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
-        
 	}
 	50% {
 		background-position: 100% 50%;
@@ -29,24 +16,50 @@ body{
 	}
 }
 
+.aniText{
+    animation: color-change 15s ease infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+
 header{
     width: 100%;
     text-align: center;
     padding: 5px;
 }
 
-nav {
+nav{
     line-height: 30px;
-    height: 400px;
+    height: 600px;
     width: 100px;
     padding: 5px;
     float: left;
 }
 
-main {
-    
-    height: 600px;
-    padding: 5px;
+footer{
     text-align: center;
-    
+    height: 10%;
+    width: 100%;
+    clear: both;
+}
+
+
+aside{
+    width: 25%;
+    height: 400px;
+    float:right;
+    padding: 5px;
+}
+
+#clrflText{
+    color: firebrick;
+}
+
+main{
+    text-align: center;
+    margin-right: 100px;
 }
